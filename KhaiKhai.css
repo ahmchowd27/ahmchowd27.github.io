@@ -1,0 +1,129 @@
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(193, 15, 15);
+    font-size: 20px;
+}
+
+nav>ul>li:hover {
+    background-color: bisque;
+
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+    position: absolute;
+
+}
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+body {
+    background-color: beige (114, 92, 125);
+
+    font-family: sans-serif;
+    margin: 100px 10%;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(228, 6, 6);
+}
+
+h3 {
+    color: rgb(233, 16, 16);
+  
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+
+}
+p{
+    color: rgb(244, 11, 11);
+}
+table {
+ color: rgb(243, 10, 10);
+ width: 100%
+ 
+}
+td,th{
+    color: black;
+
+}
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  input[type=text] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+  nput[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  form{
+    background-image: url('Khail.jpeg');
+    width:600px;
+    padding: 200px;
+    background-size: cover;
+
+
+  }
+  .fname{
+    color: white;
+    filter: drop-shadow(2px 0px 2px #000000);
+   
+
+  }
+  h2{
+    color: white;
+    
+  }
+  video{
+    width: 80%;
+  }
+  
+  
+
