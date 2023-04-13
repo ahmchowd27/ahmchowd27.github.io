@@ -143,10 +143,13 @@ td,th{
   }
   form{
     background-image: url('Khail.jpeg');
-    width:600px;
-    padding: 200px;
     background-size: cover;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 200px;
+    width:100%
+    
 
   }
   .fname{
@@ -262,7 +265,7 @@ td,th{
     #fo{
       display: none;
   }
- @media(max-width: 800px) {
+ @media(max-width: 950px) {
   nav ul{
     position: fixed;
     background:#e0dbdb;
