@@ -142,18 +142,19 @@ td,th{
     cursor: pointer;
   }
   form{
-    background-image: url('background.jpeg');
+    background-image: url('backi.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     padding: 200px;
-    width:100%
+    width:100%;
+    align-items: center;
     
 
   }
   .fname{
-    color: white;
+    color: rgb(10, 213, 149);
     filter: drop-shadow(2px 0px 2px #000000);
     box-sizing: border-box;
    
@@ -299,3 +300,7 @@ nav .bal{
   
   
  }
+h3{
+  color: red;
+  filter: drop-shadow(2px 0px 2px #000000);
+}
