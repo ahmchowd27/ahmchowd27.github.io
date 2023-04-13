@@ -142,7 +142,7 @@ td,th{
     cursor: pointer;
   }
   form{
-    background-image: url('Khail.jpeg');
+    background-image: url('background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
