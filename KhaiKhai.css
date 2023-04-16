@@ -19,7 +19,7 @@ nav ul {
 }
 nav.logo{
   font-size: 33px;
-  color:#fff;
+  color:#ad04eb;
   font-weight:600;
 }
 
@@ -69,7 +69,7 @@ footer {
     margin-top: 50px;
 }
 body {
-    background-color: beige (114, 92, 125);
+    background-color: rgb(45, 45, 36) (114, 92, 125);
 
     font-family: sans-serif;
     margin: 100px 10%;
@@ -102,6 +102,13 @@ img {
 p{
     color: rgb(244, 11, 11);
    
+}
+p2{
+  color: red;
+  font-size: large;
+  font-style: normal;
+  font:  sans-serif;
+  margin: 10px;
 }
 table {
  color: rgb(243, 10, 10);
@@ -142,16 +149,17 @@ td,th{
     cursor: pointer;
   }
   form{
-    background-image: url('backi.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    padding: 200px;
-    width:100%;
-    align-items: center;
     
+   margin-top: 40px;
+   margin-bottom: 40px;
+   width:100%;
+   color: yellow;
+   filter: drop-shadow(2px 0px 2px #000000);
+}
 
+  
+  form textarea{
+    width: 60%;
   }
   .fname{
     color: rgb(10, 213, 149);
@@ -189,6 +197,25 @@ td,th{
     -webkit-shape-outside: url(fulltray.jpeg);
     shape-outside: url(fulltray.jpeg);
   }
+
+img.flo{
+  float:left;
+  width:200px;
+  height:150px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  -webkit-shape-outside: url(c65.jpeg);
+  shape-outside: url(c65.jpeg);
+}
+img.flo{
+  float:left;
+  width:200px;
+  height:150px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  -webkit-shape-outside: url(ckf.jpg);
+  shape-outside: url(ckf.jpg);
+}
   *{
     box-sizing: border-box;
     text-align: center;
@@ -215,6 +242,7 @@ td,th{
    background-color: bisque;
    margin-top: auto;
    align-items: center;
+   justify-content: center;
   }
   h5{
     font-size: 15px;
@@ -303,4 +331,122 @@ nav .bal{
 h3{
   color: red;
   filter: drop-shadow(2px 0px 2px #000000);
+}
+.mc{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cm{
+ margin: 10px;
+}
+.cards{
+  background-image: url('output-onlinepngtools.png');
+}
+.fa-sharp fa-solid fa-envelope fa-beat{
+  font-size:large ;
+  color: #800c0c;
+  
+}
+p3{
+  font-size: large;
+  font-family: sans-serif;
+  color: rgb(2, 99, 22);
+  margin: 2px;
+  padding: 2px;
+}
+.card-title{
+  font-size: medium;
+  color: #463636;
+  
+}
+.btn btn-primary{
+  color: red;
+  
+}
+.order{
+  background-image: url('butter.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.ct{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*.fm{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url('backi.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}*/
+/* Style the form container */
+.fm {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background: url(BC.jpeg);
+}
+
+/* Style the form labels */
+label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Style the form error messages */
+input:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+  outline: none;
+}
+
+input:required:valid,
+textarea:required:valid {
+  border-color: green;
 }
