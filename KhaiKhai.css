@@ -480,6 +480,7 @@ a{
 }
 .header {
   position: relative;
+  
 }
 
 .banner-image {
@@ -487,6 +488,7 @@ a{
   height: 300px;
   background-size: cover;
   background-position: center;
+  
 }
 
 .banner-content {
@@ -518,8 +520,21 @@ a{
 }
 
 .btn-bgstroke:hover {
-  background-color:red;
+  background-color:rgb(116, 52, 52);
   color: #000;
 }
 
 
+@media only screen and (max-width: 768px) {
+  .banner-image {
+    height: 200px;
+  }
+  
+  .cc {
+    font-size: 3rem;
+  }
+  
+  .btn-bgstroke {
+    font-size: 1.2rem;
+  }
+}
