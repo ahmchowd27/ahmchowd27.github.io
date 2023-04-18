@@ -1,5 +1,7 @@
 nav {
   background-color: #9c0b0b;
+  border-radius: 2px;
+  box-shadow: #111;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,10 +35,15 @@ ul {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0 5px;
+  padding: 0 10px;
+ 
+  
 }
 
 li {
   margin: 10px;
+
 }
 
 a {
@@ -105,9 +112,11 @@ img {
 
 
 footer {
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 50px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background: red;
+  padding: 15px 0px 5px 0px;
 }
 body {
     background-color: rgb(45, 45, 36) (114, 92, 125);
@@ -216,8 +225,8 @@ td,th{
   video{
     width: 100%;
     border: 2px solid black;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-radius: 30px;
+    border-radius: 30px;
     box-shadow: 10px 10px 15px black;
   }
   img.flo{
@@ -458,3 +467,59 @@ textarea:required:valid {
 .hh{
   filter: drop-shadow(2px 0px 2px #000000);
  }
+ .logo2{
+  height: 90px;
+  width: auto;
+ }
+
+
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+.header {
+  position: relative;
+}
+
+.banner-image {
+  background-image: url("dew.jpeg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cc {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px #dcd6d6;
+}
+
+.btn-bgstroke {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000000;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  height: fit-content;
+}
+
+.btn-bgstroke:hover {
+  background-color:red;
+  color: #000;
+}
+
+
